@@ -1,0 +1,26 @@
+.section-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.section-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.section-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  color: var(--color-violet);
+  height: 300px;
+}

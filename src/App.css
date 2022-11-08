@@ -1,38 +1,81 @@
-.App {
-  text-align: center;
+:root {
+  --color-black: #000505;
+  --color-dark-violet: #3B3355;
+  --color-violet: #5D5D81;
+  --color-light-violet: #BFCDE0;
+  --color-white: #FEFCFD;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-title {
+  font-size: 28px;
+  margin-bottom: 25px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.section-subtitle {
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidenav-container {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100vh;
+  width: 220px;
+  padding: 15px;
+  background-color: var(--color-light-violet);
+}
+
+.sidenav-title {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-end;
+  text-align: right;
+  font-size: 36px;
+  margin-bottom: 100px;
+  user-select: none;
 }
 
-.App-link {
-  color: #61dafb;
+.sidenav-options {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  font-size: 20px;
+  gap: 25px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sidenav-button > a{
+  color: var(--color-black);
+  text-decoration: none;
+}
+
+.sidenav-button > a:hover{
+  color: var(--color-violet);
+  text-decoration: none;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1000px;
+  margin: 10px 0 0 250px;
+  color: var(--color-black);
+  width: 100%;
+  padding: 50px;
 }
