@@ -1,11 +1,12 @@
-import img from '../images/s1_crop.png'
+import delight from '../images/delight_logo.png'
 
 export const intro = {
-  title: "Intro",
-  content: "Here is some example content",
+  title: "Introduction",
+  content: "Fill in intro shit here",
   img: {
-    src: img,
-    alt: "alt text",
-    id: "intro-img"
+    src: delight,
+    alt: "Delight logo",
+    // we can resize images using this id tag in App.css
+    id: "delight-logo"
   }
 };

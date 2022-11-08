@@ -3,7 +3,7 @@ import { HashLink } from "react-router-hash-link";
 import "./App.css";
 import Test from "./components/Test";
 import { intro } from "./assets/content/intro";
-import { test } from './assets/content/testButton'
+import { sketches } from './assets/content/sketches'
 import ImageCaption from "./components/ImageCaption";
 import ButtonToggle from "./components/ButtonToggle";
 
@@ -17,30 +17,54 @@ function App() {
         </div>
         <div className="sidenav-options">
           <div className="sidenav-button">
-            <HashLink smooth to="/#pt1">
-              - Part 1
+            <HashLink smooth to="/#intro">
+              - Introduction
             </HashLink>
           </div>
           <div className="sidenav-button">
-            <HashLink smooth to="/#pt2">
-              - Part 2
+            <HashLink smooth to="/#sketches">
+              - Sketches
             </HashLink>
           </div>
           <div className="sidenav-button">
-            <HashLink smooth to="/#pt3">
-              - Part 3
+            <HashLink smooth to="/#lo-fi">
+              - Lo-Fi
+            </HashLink>
+          </div>
+          <div className="sidenav-button">
+            <HashLink smooth to="/#crit">
+              - Feedback
+            </HashLink>
+          </div>
+          <div className="sidenav-button">
+            <HashLink smooth to="/#hi-fi">
+              - Hi-Fi
+            </HashLink>
+          </div>
+          <div className="sidenav-button">
+            <HashLink smooth to="/#testing">
+              - User Testing
             </HashLink>
           </div>
         </div>
       </div>
       <div className="content">
-        <div id="pt1">
+        <div id="intro">
           <ImageCaption title={intro.title} content={intro.content} img={intro.img}/>
         </div>
-        <div id="pt2">
-          <ButtonToggle options={test.options} title={test.title} subtitle={test.subtitle}/>
+        <div id="sketches">
+          <ButtonToggle options={sketches.options} title={sketches.title} subtitle={sketches.subtitle}/>
         </div>
-        <div id="pt3">
+        <div id="lo-fi">
+          <Test />
+        </div>
+        <div id="crit">
+          <Test />
+        </div>
+        <div id="hi-fi">
+          <Test />
+        </div>
+        <div id="testing">
           <Test />
         </div>
       </div>

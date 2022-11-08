@@ -11,16 +11,16 @@ export default function ButtonToggle(props) {
         {Object.keys(props.options).map((elt) => {
           return (
             <div className="section-button" onClick={() => setActive(props.options[elt])}>
-              {props.options[elt].title}
+              {props.options[elt].buttonText}
             </div>
           );
         })}
       </div>
       <div className="image-container">
         <div className="section-image">
-          <img src={active.img} alt="" className={active.id} />
+          <img src={active.img} alt="" id={active.imgId} />
         </div>
-        <div className="section-text">{active.text}</div>
+        <div className="section-text">{active.caption}</div>
       </div>
     </div>
   );
