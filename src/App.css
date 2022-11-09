@@ -92,6 +92,7 @@ body {
 
 #testing1, #testing2, #testing3 {
   width: 500px;
+}
 
 #crit1 {
   width: 240px;
@@ -111,6 +112,7 @@ body {
 #crit4 {
   width: 370px;
   height: 560px;
+  margin-left: -110px;
 }
 
 #crit5 {
@@ -120,4 +122,52 @@ body {
 
 .imageCaption {
   padding-bottom: 20px;
+}
+
+#account-creation-vid, #profile-creation-vid, #matching-vid, #profile-settings-vid, #unmatch-vid {
+  width: 260px;
+  height: 500px;
+}
+
+#sketch {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch11, #sketch12, #sketch13 {
+  width: 300px;
+  height: 400px;
+}
+
+#sketch14 {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch22 {
+  width: 330px;
+  height: 400px;
+}
+
+#sketch23 {
+  width: 320px;
+  height: 400px;
+}
+
+#sketch4 {
+  width: 330px;
+  height: 440px;
+}
+
+#lofi12 {
+  width: 600px;
+  height: 500px;
+}
+
+#lofi {
+  height: 500px;
+}
+
+#lofi4 {
+  height: 600px;
 }

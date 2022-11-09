@@ -1,6 +1,16 @@
-import img from "../images/s1_crop.png";
-import img2 from "../images/s2_crop.png";
-import placeholder from "../images/placeholder_phone.png";
+import design11 from "../sketches/design1_1_profile.png";
+import design12 from "../sketches/design12.png";
+import design13 from "../sketches/design1_3_calendar.png";
+import design14 from "../sketches/design1_4_schedule.png";
+import design21 from "../sketches/design2_1_profile.png";
+import design22 from "../sketches/design2_2_matches.png";
+import design23 from "../sketches/design2_3_matching.png";
+import design31 from "../sketches/design3_1_matches.png";
+import design32 from "../sketches/design3_2_messaging.png";
+import design33 from "../sketches/design3_3_profile.png";
+import design41 from "../sketches/sketch41.png";
+import design42 from "../sketches/sketch42.png";
+import design43 from "../sketches/sketch43.png";
 
 export const sketches = {
   title: "Sketches",
@@ -12,38 +22,43 @@ export const sketches = {
       buttonText: "Design 1",
       imgs: [
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "this is a really really long caption that goes into too much detail like just wayy too much detail",
+          src: design11,
+          id: "sketch11",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design12,
+          id: "sketch12",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design13,
+          id: "sketch13",
+          caption: "",
+        },
+        {
+          src: design14,
+          id: "sketch14",
+          caption: "",
         },
       ],
     },
     sketch2: {
       imgs: [
         {
-          src: img,
-          id: "img1",
-          caption: "caption",
+          src: design21,
+          id: "sketch",
+          caption: "",
         },
         {
-          src: img2,
-          id: "img2",
-          caption: "caption",
+          src: design22,
+          id: "sketch22",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "placeholder",
+          src: design23,
+          id: "sketch23",
+          caption: "",
         },
       ],
       buttonText: "Design 2",
@@ -51,19 +66,19 @@ export const sketches = {
     sketch3: {
       imgs: [
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design31,
+          id: "sketch",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design32,
+          id: "sketch",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design33,
+          id: "sketch",
+          caption: "",
         },
       ],
       buttonText: "Design 3",
@@ -71,19 +86,19 @@ export const sketches = {
     sketch4: {
       imgs: [
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design41,
+          id: "sketch4",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design42,
+          id: "sketch4",
+          caption: "",
         },
         {
-          src: placeholder,
-          id: "placeholder",
-          caption: "caption",
+          src: design43,
+          id: "sketch4",
+          caption: "",
         },
       ],
       buttonText: "Design 4",
