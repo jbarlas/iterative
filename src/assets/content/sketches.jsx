@@ -29,17 +29,17 @@ export const sketches = {
         {
           src: design12,
           id: "sketch12",
-          caption: "",
+          caption: "Can see multiple users at once and swipe to expand a profile.",
         },
         {
           src: design13,
           id: "sketch13",
-          caption: "",
+          caption: "Only calling is allowed to emphasize serious connection.",
         },
         {
           src: design14,
           id: "sketch14",
-          caption: "",
+          caption: "Since we aren't allowing messaging, we had to allow scheduling calls through an interface.",
         },
       ],
     },
@@ -53,12 +53,12 @@ export const sketches = {
         {
           src: design22,
           id: "sketch22",
-          caption: "",
+          caption: "Lock imagery to emphasize the notion that you can only speak to one person at a time",
         },
         {
           src: design23,
           id: "sketch23",
-          caption: "",
+          caption: "Swiping interface to be consistent with general mental model of dating apps.",
         },
       ],
       buttonText: "Design 2",
@@ -88,12 +88,12 @@ export const sketches = {
         {
           src: design41,
           id: "sketch4",
-          caption: "",
+          caption: "Toggle to your one match. Emphasizes the nature of this app.",
         },
         {
           src: design42,
           id: "sketch4",
-          caption: "",
+          caption: "All text and you have to go click down to view images and match so users don't go off just superficial images.",
         },
         {
           src: design43,
