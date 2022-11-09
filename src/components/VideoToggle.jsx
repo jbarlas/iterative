@@ -29,7 +29,7 @@ export default function VideoToggle(props) {
       </div>
       <div className="videos-display">
           <div className="video-container">
-            <video ref={videoRef} width="250" height="500" controls>
+            <video ref={videoRef} width="250" height="500" controls autoPlay>
                 <source src={active.video.src} type="video/mp4" />
                 Oops! Your browser does not support this video type /:
             </video>

@@ -1,35 +1,51 @@
-import account_creation from "../hifis/account_creation.mp4";
+import accountCreation from "../hifis/account_creation.mp4";
 import matching from "../hifis/matching.mp4";
-import profile_creation from "../hifis/profile_creation.mp4";
-import profile_settings from "../hifis/profile_settings.mp4";
+import profileCreation from "../hifis/profile_creation.mp4";
+import profileSettings from "../hifis/profile_settings.mp4";
 import unmatch from "../hifis/unmatch.mp4";
 
 export const hifi = {
   title: "Hi-Fi Prototypes",
   subtitle: "Information about hi-fis!",
   options: {
-    matching: {
+    accountCreation: {
       buttonText: "Account Creation",
       video: {
-        src: account_creation,
-        id: "placeholder",
-        caption: "is this working for matching page",
+        src: accountCreation,
+        id: "account-creation-vid",
+        caption: "Account creation walk-through",
       },
     },
-    account: {
-      buttonText: "Unmatch",
+    profileCreation: {
+      buttonText: "Profile Creation",
+      video: {
+        src: profileCreation,
+        id: "profile-creation-vid",
+        caption: "Profile creation walk-through",
+      },
+    },
+    matching: {
+      buttonText: "Matching",
+      video: {
+        src: matching,
+        id: "matching-vid",
+        caption: "Matching with other users",
+      },
+    },
+    profile: {
+      buttonText: "Profile/Settings",
+      video: {
+        src: profileSettings,
+        id: "profile-settings-vid",
+        caption: "View profile and setings",
+      },
+    },
+    unmatch: {
+      buttonText: "Unmatching",
       video: {
         src: unmatch,
-        id: "placeholder",
-        caption: "placeholder for accounts creation",
-      },
-    },
-    prompt: {
-      buttonText: "Prompts",
-      video: {
-        src: profile_creation,
-        id: "placeholder",
-        caption: "something about prompts",
+        id: "unmatch-vid",
+        caption: "Unmatching with users",
       },
     },
   },
