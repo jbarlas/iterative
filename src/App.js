@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 import { intro } from "./assets/content/intro";
 import { sketches } from './assets/content/sketches'
 import { lofi } from "./assets/content/lofi"; 
-import { crit, crit1 } from "./assets/content/crit";
+import { crit1, crit2, crit3, crit4, crit5 } from "./assets/content/crit";
 import { hifi } from "./assets/content/hifi"; 
 import { taskQuestions } from "./assets/content/testing";
 import ImageCaption from "./components/ImageCaption";
@@ -67,6 +67,10 @@ function App() {
         <div className="section-title">Group Critique</div>
           <div className="section-subtitle">The HiFi prototype shown above is after we implemented changes from crit feedback, so to show our iteration, we’ve included updated versions of our low fidelity prototypes below (and when not applicable, we have our HiFi). In the LoFi Prototype section above, we have the first draft before feedback.</div>
         <ImageCaption img={crit1.img} leftSubtitle={crit1.leftSubtitle} leftText={crit1.leftText}/>
+        <ImageCaption img={crit2.img} leftSubtitle={crit2.leftSubtitle} leftText={crit2.leftText}/>
+        <ImageCaption img={crit3.img} leftSubtitle={crit3.leftSubtitle} leftText={crit3.leftText}/>
+        <ImageCaption img={crit4.img} leftSubtitle={crit4.leftSubtitle} leftText={crit4.leftText}/>
+        <ImageCaption img={crit5.img} leftSubtitle={crit5.leftSubtitle} leftText={crit5.leftText}/>
         </div>
         <div id="hi-fi">
         <VideoToggle options={hifi.options} title={hifi.title} subtitle={hifi.subtitle}/>
