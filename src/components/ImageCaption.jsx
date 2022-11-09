@@ -3,7 +3,7 @@ import "../styles/SectionBlock.css";
 
 export default function ImageCaption(props) {
   return (
-    <div>
+    <div className="imageCaption">
       <div className="section-title">{props.title}</div>
       <div className={!props.reverse ? "section-body" : "section-body reverse"}>
           {props.content ? (
