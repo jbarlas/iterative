@@ -6,7 +6,7 @@ import { sketches } from './assets/content/sketches'
 import { lofi } from "./assets/content/lofi"; 
 import { crit1, crit2, crit3, crit4, crit5 } from "./assets/content/crit";
 import { hifi } from "./assets/content/hifi"; 
-import { taskQuestions } from "./assets/content/testing";
+import { taskQuestions, testingVideos, analysis } from "./assets/content/testing";
 import ImageCaption from "./components/ImageCaption";
 import ButtonToggle from "./components/ImageToggle";
 import VideoToggle from "./components/VideoToggle";
@@ -77,8 +77,12 @@ function App() {
         </div>
         <div id="testing">
           <div className="section-title">User testing</div>
-          <div className="section-text">here is some text that we wwant to add as a blurb</div>
+          <div className="section-subtitle">Our interface’s intended functionality is first and foremost to allow our users to match and message with others as well as unmatch. Our testing instructions were as follows: "Imagine you’re a woman seeking both men and women on a brand new dating app. Create a profile and try to match with both users that are available to match with. Think aloud as you go through the app, especially when you find something confusing."</div>
           <DividedText content={taskQuestions.content}/>
+          <br></br><br></br>
+          <div className="section-subtitle">Most of the results were in line with our expectations. All subtasks were successfully done, but there were some confusions. Click the buttons to view each user’s videos.</div>
+          <VideoToggle options={testingVideos.user1} title={testingVideos.user2} subtitle={testingVideos.user3}/>
+          <DividedText content={analysis.content}/>
         </div>
       </div>
     </div>

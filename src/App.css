@@ -90,6 +90,9 @@ body {
   height: 500px;
 }
 
+#testing1, #testing2, #testing3 {
+  width: 500px;
+
 #crit1 {
   width: 240px;
   height: 500px;
