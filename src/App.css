@@ -80,6 +80,11 @@ body {
   padding: 50px;
 }
 
+.section-text {
+  margin: 0;
+  padding: 0 15px;
+}
+
 #placeholder {
   width: 250px;
   height: 500px;

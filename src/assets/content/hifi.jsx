@@ -1,39 +1,36 @@
-import placeholder from "../images/placeholder_phone.png";
+import account_creation from "../hifis/account_creation.mp4";
+import matching from "../hifis/matching.mp4";
+import profile_creation from "../hifis/profile_creation.mp4";
+import profile_settings from "../hifis/profile_settings.mp4";
+import unmatch from "../hifis/unmatch.mp4";
 
 export const hifi = {
   title: "Hi-Fi Prototypes",
   subtitle: "Information about hi-fis!",
-  // might have to come up with new component for video
   options: {
     matching: {
-      buttonText: "Matching",
-      imgs: [
-        {
-          src: placeholder,
-          id: "placeholder",
-          caption: "placeholder for matching page",
-        },
-      ],
+      buttonText: "Account Creation",
+      video: {
+        src: account_creation,
+        id: "placeholder",
+        caption: "is this working for matching page",
+      },
     },
     account: {
-      buttonText: "Account Creation",
-      imgs: [
-        {
-          src: placeholder,
-          id: "placeholder",
-          caption: "placeholder for accounts creation",
-        },
-      ],
+      buttonText: "Unmatch",
+      video: {
+        src: unmatch,
+        id: "placeholder",
+        caption: "placeholder for accounts creation",
+      },
     },
     prompt: {
       buttonText: "Prompts",
-      imgs: [
-        {
-          src: placeholder,
-          id: "placeholder",
-          caption: "something about prompts",
-        },
-      ],
+      video: {
+        src: profile_creation,
+        id: "placeholder",
+        caption: "something about prompts",
+      },
     },
   },
 };

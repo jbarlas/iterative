@@ -1,14 +1,16 @@
+import "./App.css";
 import React from "react";
 import { HashLink } from "react-router-hash-link";
-import "./App.css";
-import Test from "./components/Test";
 import { intro } from "./assets/content/intro";
 import { sketches } from './assets/content/sketches'
 import { lofi } from "./assets/content/lofi"; 
 import { crit } from "./assets/content/crit";
 import { hifi } from "./assets/content/hifi"; 
+import { taskQuestions } from "./assets/content/testing";
 import ImageCaption from "./components/ImageCaption";
-import ButtonToggle from "./components/ButtonToggle";
+import ButtonToggle from "./components/ImageToggle";
+import VideoToggle from "./components/VideoToggle";
+import DividedText from "./components/DividedText";
 
 function App() {
   return (
@@ -65,10 +67,12 @@ function App() {
         <ButtonToggle options={crit.options} title={crit.title} subtitle={crit.subtitle}/>
         </div>
         <div id="hi-fi">
-        <ButtonToggle options={hifi.options} title={hifi.title} subtitle={hifi.subtitle}/>
+        <VideoToggle options={hifi.options} title={hifi.title} subtitle={hifi.subtitle}/>
         </div>
         <div id="testing">
-          <Test />
+          <div className="section-title">User testing</div>
+          <div className="section-text">here is some text that we wwant to add as a blurb</div>
+          <DividedText content={taskQuestions.content}/>
         </div>
       </div>
     </div>

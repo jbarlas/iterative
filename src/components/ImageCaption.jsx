@@ -1,14 +1,12 @@
 import React from "react";
-import '../styles/ImageCaption.css'
+import "../styles/SectionBlock.css";
 
 export default function ImageCaption(props) {
-  return(
+  return (
     <div>
       <div className="section-title">{props.title}</div>
       <div className="section-body">
-        <div className="section-content">
-          {props.content}
-        </div>
+        <div className="section-content">{props.content}</div>
         <div>
           <hr />
         </div>

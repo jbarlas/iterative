@@ -1,0 +1,32 @@
+.section-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  padding: 30px;
+}
+
+.section-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+.section-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  color: var(--color-violet);
+  height: 100%;
+}
+
+.section-subtitle {
+  margin: 0;
+  padding: 0;
+}

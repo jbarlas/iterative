@@ -1,0 +1,52 @@
+
+.button-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 30px;
+  }
+  
+  .section-button {
+    padding: 10px 20px;
+    background-color: var(--color-dark-violet);
+    color: var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .section-button:hover {
+    background-color: var(--color-violet);
+  }
+  
+  .section-button:active {
+    box-shadow: 0 0 0 2px var(--color-light-violet);
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    max-width: min-content;
+  }
+  
+  .images-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .section-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-image {
+    margin: 10px 15px;
+  }
