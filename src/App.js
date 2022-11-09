@@ -73,7 +73,7 @@ function App() {
         </div>
         <div id="testing">
           <div className="section-title">User testing</div>
-          <div className="section-text">Our interface’s intended functionality is first and foremost to allow our users to match and message with others as well as unmatch. Our testing instructions were as follows: "Imagine you’re a woman seeking both men and women on a brand new dating app. Create a profile and try to match with both users that are available to match with. Think aloud as you go through the app, especially when you find something confusing."</div>
+          <div className="section-subtitle">Our interface’s intended functionality is first and foremost to allow our users to match and message with others as well as unmatch. Our testing instructions were as follows: "Imagine you’re a woman seeking both men and women on a brand new dating app. Create a profile and try to match with both users that are available to match with. Think aloud as you go through the app, especially when you find something confusing."</div>
           <DividedText content={taskQuestions.content}/>
           <br></br><br></br>
           <div className="section-subtitle">Most of the results were in line with our expectations. All subtasks were successfully done, but there were some confusions. Click the buttons to view each user’s videos.</div>
