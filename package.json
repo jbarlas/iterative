@@ -1,6 +1,7 @@
 {
   "name": "iterative",
   "version": "0.1.0",
+  "homepage": "https://jbarlas.github.io/iterative",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
