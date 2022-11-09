@@ -28,5 +28,25 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    max-width: min-content;
   }
   
+  .images-display {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .section-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-image {
+    margin: 10px 15px;
+  }

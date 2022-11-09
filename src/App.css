@@ -1,8 +1,8 @@
 :root {
   --color-black: #000505;
-  --color-dark-violet: #3B3355;
-  --color-violet: #5D5D81;
-  --color-light-violet: #BFCDE0;
+  --color-dark-violet: #DC8EAE;
+  --color-violet: #53ABBB;
+  --color-light-violet: #65D9D5;
   --color-white: #FEFCFD;
 }
 
@@ -78,4 +78,9 @@ body {
   color: var(--color-black);
   width: 100%;
   padding: 50px;
+}
+
+#placeholder {
+  width: 250px;
+  height: 500px;
 }

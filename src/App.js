@@ -4,6 +4,9 @@ import "./App.css";
 import Test from "./components/Test";
 import { intro } from "./assets/content/intro";
 import { sketches } from './assets/content/sketches'
+import { lofi } from "./assets/content/lofi"; 
+import { crit } from "./assets/content/crit";
+import { hifi } from "./assets/content/hifi"; 
 import ImageCaption from "./components/ImageCaption";
 import ButtonToggle from "./components/ButtonToggle";
 
@@ -56,13 +59,13 @@ function App() {
           <ButtonToggle options={sketches.options} title={sketches.title} subtitle={sketches.subtitle}/>
         </div>
         <div id="lo-fi">
-          <Test />
+        <ButtonToggle options={lofi.options} title={lofi.title} subtitle={lofi.subtitle}/>
         </div>
         <div id="crit">
-          <Test />
+        <ButtonToggle options={crit.options} title={crit.title} subtitle={crit.subtitle}/>
         </div>
         <div id="hi-fi">
-          <Test />
+        <ButtonToggle options={hifi.options} title={hifi.title} subtitle={hifi.subtitle}/>
         </div>
         <div id="testing">
           <Test />
