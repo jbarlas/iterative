@@ -20,13 +20,13 @@ Subtasks:
 </div>
 
 const performance = <div>
-  Create A Profile:<br></br>
+  <div className="subsection-title">Create A Profile:</div><br></br>
   Overall, they really enjoyed the account creation workflow because it felt like someone was talking to them and gave clear indication of its length. They wish that the length was likewise indicated for the profile creation.
   <br></br><br></br>
-  React to Other People’s Profiles:<br></br>
+  <div className="subsection-title">React to Other People’s Profiles:</div><br></br>
   Some users were confused how to react to profiles and thought that in order to match, they had to press the heart button. They also at first thought that the X button to go to the next profile would take you back to your own profile page.
   <br></br><br></br>
-  Explore the Matched Page and Unmatching a Match:<br></br>
+  <div className="subsection-title">Explore the Matched Page and Unmatching a Match:</div><br></br>
   For the matching process, users thought that more information should be given on each profile before matching. They thought that the unmatching process was extremely intuitive.
 </div>
 

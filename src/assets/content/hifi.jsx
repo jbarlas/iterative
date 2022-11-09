@@ -6,7 +6,7 @@ import unmatch from "../hifis/unmatch.mp4";
 
 export const hifi = {
   title: "Hi-Fi Prototypes",
-  subtitle: "Information about hi-fis!",
+  subtitle: "We created a final version of the product where we made screens for 5 different workflows and go through the interactions as a new user.",
   options: {
     accountCreation: {
       buttonText: "Account Creation",
