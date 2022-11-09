@@ -4,7 +4,7 @@ import { HashLink } from "react-router-hash-link";
 import { intro } from "./assets/content/intro";
 import { sketches } from './assets/content/sketches'
 import { lofi } from "./assets/content/lofi"; 
-import { crit } from "./assets/content/crit";
+import { crit, crit1 } from "./assets/content/crit";
 import { hifi } from "./assets/content/hifi"; 
 import { taskQuestions } from "./assets/content/testing";
 import ImageCaption from "./components/ImageCaption";
@@ -38,7 +38,7 @@ function App() {
           </div>
           <div className="sidenav-button">
             <HashLink smooth to="/#crit">
-              - Feedback
+              - Group Critique
             </HashLink>
           </div>
           <div className="sidenav-button">
@@ -64,7 +64,9 @@ function App() {
         <ButtonToggle options={lofi.options} title={lofi.title} subtitle={lofi.subtitle}/>
         </div>
         <div id="crit">
-        <ButtonToggle options={crit.options} title={crit.title} subtitle={crit.subtitle}/>
+        <div className="section-title">Group Critique</div>
+          <div className="section-subtitle">The HiFi prototype shown above is after we implemented changes from crit feedback, so to show our iteration, we’ve included updated versions of our low fidelity prototypes below (and when not applicable, we have our HiFi). In the LoFi Prototype section above, we have the first draft before feedback.</div>
+        <ImageCaption img={crit1.img} leftSubtitle={crit1.leftSubtitle} leftText={crit1.leftText}/>
         </div>
         <div id="hi-fi">
         <VideoToggle options={hifi.options} title={hifi.title} subtitle={hifi.subtitle}/>

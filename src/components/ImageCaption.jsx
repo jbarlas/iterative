@@ -5,8 +5,15 @@ export default function ImageCaption(props) {
   return (
     <div>
       <div className="section-title">{props.title}</div>
-      <div className="section-body">
-        <div className="section-content">{props.content}</div>
+      <div className={!props.reverse ? "section-body" : "section-body reverse"}>
+          {props.content ? (
+            <div className="image-caption-content">{props.content}</div>
+          ) : (
+            <div className="section-content">
+              <div className="section-subtitle">{props.leftSubtitle}</div>
+              <div className="section-text">{props.leftText}</div>
+            </div>
+          )}
         <div>
           <hr />
         </div>

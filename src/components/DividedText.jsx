@@ -6,7 +6,7 @@ export default function DividedText(props) {
   return (
     <div>
       <div className="section-title">{content.title}</div>
-      <div className="section-title">{content.subtitle}</div>
+      <div className="section-subtitle">{content.subtitle}</div>
       <div className="section-body">
         <div className="section-content">
           <div className="section-subtitle">{content.rightSubtitle}</div>
