@@ -20,7 +20,7 @@ export const crit2 = {
     // TODO: add in + resize image
     src: placeholder,
     alt: "Delight logo",
-    // we can resize images using this id tag in App.css
+    // we can resize images using this id tag in App.css dd
     id: "placeholder"
   }
 };
