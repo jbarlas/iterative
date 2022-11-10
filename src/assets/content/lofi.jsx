@@ -10,34 +10,33 @@ export const lofi = {
   subtitle:
     "We wanted to emphasize the one to one matching that is central to Delight’s mission. After reviewing our four different sketched designs, we created one final low fidelity wireframe in Balsamiq and annotated our design decisions within it. ",
   options: {
-    // TODO: come up with better button names
-    matching: {
-      buttonText: "Swiping",
-      imgs: [
-        {
-          src: swipe1,
-          id: "lofi12",
-          caption: "",
-        },
-        {
-          src: swipe2,
-          id: "lofi",
-          caption: "",
-        },
-      ],
-    },
     account: {
         buttonText: "Account Creation",
         imgs: [
           {
             src: account1,
             id: "lofi",
-            caption: "",
+            caption: "Signup page.",
           },
           {
             src: account2,
             id: "lofi",
-            caption: "",
+            caption: "Plus signs to add more content.",
+          },
+        ],
+      },
+      matching: {
+        buttonText: "Swiping",
+        imgs: [
+          {
+            src: swipe1,
+            id: "lofi12",
+            caption: "Viewing other users' profiles.",
+          },
+          {
+            src: swipe2,
+            id: "lofi",
+            caption: "Reacting to other users' profiles to try and match with them.",
           },
         ],
       },
@@ -45,14 +44,14 @@ export const lofi = {
         buttonText: "Matched",
         imgs: [
           {
-            src: match1,
-            id: "lofi4",
-            caption: "",
-          },
-          {
             src: match2,
             id: "lofi4",
-            caption: "",
+            caption: "Pop up screen to notify users of a match.",
+          },
+          {
+            src: match1,
+            id: "lofi4",
+            caption: "Messaging interface that is enabled only when there is a match.",
           },
         ],
       },

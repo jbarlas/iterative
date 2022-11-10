@@ -24,7 +24,7 @@ export const sketches = {
         {
           src: design11,
           id: "sketch11",
-          caption: "",
+          caption: "Mixed input formats.",
         },
         {
           src: design12,
@@ -48,7 +48,7 @@ export const sketches = {
         {
           src: design21,
           id: "sketch",
-          caption: "",
+          caption: "Focus on photos and short biography.",
         },
         {
           src: design22,
@@ -68,17 +68,17 @@ export const sketches = {
         {
           src: design31,
           id: "sketch",
-          caption: "",
+          caption: "Features compatibility heavily as opposed to images.",
         },
         {
           src: design32,
           id: "sketch",
-          caption: "",
+          caption: "Fun, engaging messaging interface to keep users on the app over texting.",
         },
         {
           src: design33,
           id: "sketch",
-          caption: "",
+          caption: "Only one type of input for users.",
         },
       ],
       buttonText: "Design 3",
@@ -98,7 +98,7 @@ export const sketches = {
         {
           src: design43,
           id: "sketch4",
-          caption: "",
+          caption: "Extreme customizability to showcase personality.",
         },
       ],
       buttonText: "Design 4",
